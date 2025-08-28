@@ -91,10 +91,3 @@ streamlit run heart_pipeline.py
 * If logistic regression gives a convergence warning, increase `max_iter` or scale features properly.
 
 ---
-
-## Author
-
-* Mohamed Hussein
-* Email: [mohamedhusseineissa14@gmail.com]
-* GitHub: [MoHussein197](https://github.com/MoHussein197)
-
