@@ -1,0 +1,33 @@
+# Ngrok Setup for Heart Disease Streamlit App
+
+1. Install Streamlit and Ngrok
+   - Make sure your environment has the required packages:
+     pip install streamlit pyngrok
+
+2. Navigate to your project directory
+   Example:
+     cd Heart_Disease_Project/ui
+
+3. Run your Streamlit app locally
+   Example:
+     streamlit run app.py
+
+4. Expose your local app using Ngrok
+   - Option 1: Using Pyngrok (Python)
+       from pyngrok import ngrok
+       public_url = ngrok.connect(port=8501)
+       print(public_url)
+   - Option 2: Using Ngrok CLI
+       ./ngrok http 8501
+     (This will give you a public URL like https://abcd1234.ngrok.io)
+
+5. Open the Ngrok public URL in a browser
+   - Your Streamlit app should now be accessible online
+
+6. Share the Ngrok link
+   - Anyone with the link can access your app while it’s running
+
+Notes:
+- The Ngrok tunnel lasts until you stop the script or close the terminal.
+- For a permanent URL, you need a paid Ngrok account.
+- Make sure your firewall allows connections to port 8501.
