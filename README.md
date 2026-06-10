@@ -1,10 +1,5 @@
 # 🫀 Heart Disease Prediction App
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 > A machine learning web application that predicts the likelihood of heart disease based on patient health data, built with **Streamlit** and deployable via **Ngrok** or **Streamlit Cloud**.
 
 ---
@@ -167,12 +162,6 @@ pyngrok
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/mohamed-hussein)
 [![GitHub](https://img.shields.io/badge/GitHub-MoHussein197-black?logo=github)](https://github.com/MoHussein197)
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
